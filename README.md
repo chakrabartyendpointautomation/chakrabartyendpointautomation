@@ -156,6 +156,23 @@ The project includes:
 
 ---
 
+### 5. Jamf Pro + Intune Migration Playbook
+
+A focused guide for **moving macOS MDM management from Intune to Jamf Pro** and integrating Jamf-managed Mac compliance with Microsoft Intune and Entra ID.
+
+The project covers:
+
+- ABM assignment, ADE, and Jamf Computer PreStage readiness
+- Intune-to-Jamf workload mapping and phased migration planning
+- Jamf/Intune compliance integration and legacy transition considerations
+- Cutover gates, device reconciliation, support, and rollback planning
+
+🔗 **[View Project](https://github.com/chakrabartyendpointautomation/jamf-intune-migration-playbook)**
+
+> All included data is synthetic. The local CSV reconciliation tool makes no API calls and changes no device or tenant state.
+
+---
+
 ## 🔐 Endpoint Management Philosophy
 
 I approach endpoint management with four principles:
