@@ -120,6 +120,42 @@ The project focuses on:
 
 ---
 
+### 3. Endpoint Management Automation
+
+Read-only-first **PowerShell automation for Microsoft Intune and Entra ID**, using Microsoft Graph to collect endpoint inventory and health data for operational review.
+
+The project demonstrates:
+
+- Intune managed-device inventory and compliance reporting
+- Entra device-registration enrichment
+- Stale check-in and noncompliance identification for human review
+- Timestamped JSON and CSV report generation
+- Delegated Graph authentication with explicit read-only scopes
+
+🔗 **[View Project](https://github.com/chakrabartyendpointautomation/endpoint-management-automation)**
+
+> The project collects and reports data only; it does not change tenant state. Tenant-derived reports may contain sensitive device and user information.
+
+---
+
+### 4. Jamf Pro macOS MDM Automation
+
+A practical Apple endpoint management portfolio covering **Jamf Pro, Computer PreStage Enrollment, Automated Device Enrollment (ADE), Apple Business Manager (ABM), and macOS**.
+
+The project includes:
+
+- ABM-to-Jamf assignment and PreStage enrollment lifecycle guidance
+- Configuration-profile and application-deployment patterns
+- Read-only macOS health and inventory examples
+- Synthetic pilot workflow and reporting examples
+- Jamf Pro and Intune coexistence design considerations
+
+🔗 **[View Project](https://github.com/chakrabartyendpointautomation/jamfpro-macos-mdm-automation)**
+
+> Examples use synthetic data. Local scripts are read-only and do not call management APIs or modify device settings.
+
+---
+
 ## 🔐 Endpoint Management Philosophy
 
 I approach endpoint management with four principles:
